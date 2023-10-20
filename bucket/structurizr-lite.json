@@ -1,6 +1,7 @@
 {
   "suggest": {
-    "Graphviz": "graphviz"
+    "Graphviz": "graphviz",
+    "Java17": "java/temurin17-jre"
   },
   "bin": "structurizr-lite.bat",
   "pre_install": "Set-Content -Value \"@java.exe -Djdk.util.jar.enableMultiRelease=false -jar $dir\\structurizr-lite.war %* && exit 0 || exit 1\" -Path \"$dir\\structurizr-lite.bat\"",
