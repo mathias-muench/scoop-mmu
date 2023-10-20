@@ -1,9 +1,9 @@
 {
-	"suggest": {
-		"Graphviz": "graphviz"
-	},
-	"bin": "structurizr-lite.bat",
-	"pre_install": "Set-Content -Value \"@java.exe -Djdk.util.jar.enableMultiRelease=false -jar $dir\\structurizr-lite.war %* && exit 0 || exit 1\" -Path \"$dir\\structurizr-lite.bat\"",
-	"version":  "v3197",
-	"url":  "https://github.com/structurizr/lite/releases/download/v3197/structurizr-lite.war"
+  "suggest": {
+    "Graphviz": "graphviz"
+  },
+  "bin": "structurizr-lite.bat",
+  "pre_install": "Set-Content -Value \"@java.exe -Djdk.util.jar.enableMultiRelease=false -jar $dir\\structurizr-lite.war %* && exit 0 || exit 1\" -Path \"$dir\\structurizr-lite.bat\"",
+  "version":  "v3197",
+  "url":  "https://github.com/structurizr/lite/releases/download/v3197/structurizr-lite.war"
 }
