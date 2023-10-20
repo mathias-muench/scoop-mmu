@@ -9,5 +9,9 @@
   },
   "url":  "https://github.com/structurizr/lite/releases/download/v3193/structurizr-lite.war",
   "pre_install": "Set-Content -Value \"@java.exe -Djdk.util.jar.enableMultiRelease=false -jar $dir\\structurizr-lite.war %* && exit 0 || exit 1\" -Path \"$dir\\structurizr-lite.bat\"",
-  "bin": "structurizr-lite.bat"
+  "bin": "structurizr-lite.bat",
+  "checkver": "github",
+  "autoupdate": {
+    "url":  "https://github.com/structurizr/lite/releases/download/v$version/structurizr-lite.war"
+  }
 }
