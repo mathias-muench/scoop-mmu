@@ -1,4 +1,8 @@
 {
+    "checkver": "version ([\\d\\.]+)",
+    "autoupdate": {
+        "url": "https://mpmediasoft.de/products/AIPBrowserDE/AIP%20Browser%20DE-$version-windows-x86_64.msi"
+    },
     "shortcuts": [
         [
             "AIP Browser DE\\AIP Browser DE.exe",
