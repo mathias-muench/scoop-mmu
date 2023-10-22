@@ -1,13 +1,13 @@
 {
-	"shortcuts": [
-		[
-			"AIP Browser DE\\AIP Browser DE.exe",
-			"AIP Browser DE"
-		]
-	],
-	"version": "1.1.2",
-	"description": "Der AIP Browser DE ist ein spezieller Browser für die frei verfügbare Online-Version der AIP VFR von Deutschland",
-	"homepage": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html",
-	"license": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html#_lizenz",
-	"url": "https://mpmediasoft.de/products/AIPBrowserDE/AIP%20Browser%20DE-1.1.2-windows-x86_64.msi"
+    "shortcuts": [
+        [
+            "AIP Browser DE\\AIP Browser DE.exe",
+            "AIP Browser DE"
+        ]
+    ],
+    "version": "1.1.2",
+    "description": "Der AIP Browser DE ist ein spezieller Browser für die frei verfügbare Online-Version der AIP VFR von Deutschland",
+    "homepage": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html",
+    "license": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html#_lizenz",
+    "url": "https://mpmediasoft.de/products/AIPBrowserDE/AIP%20Browser%20DE-1.1.2-windows-x86_64.msi"
 }
