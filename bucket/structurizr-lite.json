@@ -1,5 +1,5 @@
 {
-    "version": "3205",
+    "version": "3206",
     "description": "Structurizr Lite",
     "homepage": "https://github.com/structurizr/lite",
     "license": "MIT",
@@ -7,8 +7,8 @@
         "Graphviz": "graphviz",
         "Java17": "java/temurin17-jre"
     },
-    "url": "https://github.com/structurizr/lite/releases/download/v3205/structurizr-lite.war",
-    "hash": "f507201301f7c37be8240798f05d49c2b2dfc4328b29f24e5dd3b62064ee1948",
+    "url": "https://github.com/structurizr/lite/releases/download/v3206/structurizr-lite.war",
+    "hash": "e2b784e3b4245a849ba2b6a50f8527cc6bd0a9331f624ededea3c4962c9dab4b",
     "pre_install": "Set-Content -Value \"@java.exe -Djdk.util.jar.enableMultiRelease=false -jar $dir\\structurizr-lite.war %* && exit 0 || exit 1\" -Path \"$dir\\structurizr-lite.bat\"",
     "bin": "structurizr-lite.bat",
     "checkver": "github",
