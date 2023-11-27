@@ -9,10 +9,10 @@
     "uninstaller": {
         "script": "Start-Process msiexec -ArgumentList @('/x', \"`\"$dir\\setup.msi_`\"\", '/qn', '/norestart') -Wait -Verb RunAs"
     },
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Der AIP Browser DE ist ein spezieller Browser für die frei verfügbare Online-Version der AIP VFR von Deutschland",
     "homepage": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html",
     "license": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html#_lizenz",
-    "hash": "8d9906cb16dba4efec57ec071e0b2fd725241e500fbe53c73c9019bf6e61bba8",
-    "url": "https://mpmediasoft.de/products/AIPBrowserDE/AIP%20Browser%20DE-1.1.2-windows-x86_64.msi#/setup.msi_"
+    "hash": "488e089d10c5238073eaa1edcc7662748075fbd626035ef8c3a277dbd4bb1701",
+    "url": "https://mpmediasoft.de/products/AIPBrowserDE/AIP%20Browser%20DE-1.1.3-windows-x86_64.msi#/setup.msi_"
 }
