@@ -1,11 +1,18 @@
 {
-    "version": "6.21",
-    "description": "TopTask",
-    "homepage": "https://xctherm.com/de/toptask",
+    "version": "2024.12.07",
+    "description": "Structurizr Lite",
+    "homepage": "https://github.com/structurizr/lite",
+    "license": "MIT",
     "suggest": {
+        "Graphviz": "graphviz",
         "Java17": "java/temurin17-jre"
     },
-    "url": "https://xctherm.com/data/jtt/jTT_v6.21.jar",
-    "pre_install": "Set-Content -Value \"@java.exe -jar $dir\\jTT_v6.21.jar %* && exit 0 || exit 1\" -Path \"$dir\\jtt.bat\"",
-    "bin": "jtt.bat"
+    "url": "https://github.com/structurizr/lite/releases/download/v2024.12.07/structurizr-lite.war",
+    "hash": "d3f30f2fa7cdf0be288a8f3111e0a606e2ee514fee36bd23fd637bd232794daa",
+    "pre_install": "Set-Content -Value \"@java.exe -Djdk.util.jar.enableMultiRelease=false -jar $dir\\structurizr-lite.war %* && exit 0 || exit 1\" -Path \"$dir\\structurizr-lite.bat\"",
+    "bin": "structurizr-lite.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/structurizr/lite/releases/download/v$version/structurizr-lite.war"
+    }
 }
