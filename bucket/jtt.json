@@ -1,6 +1,7 @@
 {
     "version": "6.21",
     "description": "Java TopTask",
+    "license": "Proprietary",
     "homepage": "https://xctherm.com/de/toptask",
     "suggest": {
         "Java17": "java/temurin17-jre"
