@@ -8,6 +8,7 @@
   ],
   "description": "PDF signing software written in Java. It supports visible signatures, timestamping, certificate verification and many other cool features",
   "extract_dir": "jsignpdf-2.3.0",
+  "hash": "8ea04172287296b4db63553751122149ad34ad0474e3a0cdbc6e32fbb77a5833",
   "license": "MPL-2.0|LGPL-2.1",
   "url": "https://github.com/intoolswetrust/jsignpdf/releases/download/JSignPdf_2_3_0/jsignpdf-2.3.0.zip",
   "version": "2.3.0"
