@@ -1,0 +1,14 @@
+{
+  "bin": [
+    [
+      "java.exe",
+      "JSignPdf",
+      "-Xms1g -Xmx1g --add-exports jdk.crypto.cryptoki/sun.security.pkcs11=ALL-UNNAMED --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED --add-exports java.base/sun.security.action=ALL-UNNAMED --add-exports java.base/sun.security.rsa=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED -Djsignpdf.home=\"$dir\" -jar \"$dir\\JSignPdf.jar\""
+    ]
+  ],
+  "description": "PDF signing software written in Java. It supports visible signatures, timestamping, certificate verification and many other cool features",
+  "extract_dir": "jsignpdf-2.3.0",
+  "license": "MPL-2.0|LGPL-2.1",
+  "url": "https://github.com/intoolswetrust/jsignpdf/releases/download/JSignPdf_2_3_0/jsignpdf-2.3.0.zip",
+  "version": "2.3.0"
+}
