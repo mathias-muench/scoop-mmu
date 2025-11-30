@@ -1,13 +1,18 @@
 {
-    "version": "6.21",
-    "description": "Java TopTask",
-    "license": "Proprietary",
-    "homepage": "https://xctherm.com/de/toptask",
-    "suggest": {
-        "Java17": "java/temurin17-jre"
-    },
-    "url": "https://xctherm.com/data/jtt/jTT_v6.21.jar",
-    "hash": "be664ca7c4b489f3ffe894d7208c6d74bc06c126c744b6812d2ad998f2d4c648",
-    "pre_install": "Set-Content -Value \"@java.exe -jar $dir\\jTT_v6.21.jar\" -Path \"$dir\\jtt.bat\"",
-    "shortcuts": [ [ "jtt.bat", "jtt" ] ]
+  "bin": [
+    [
+      "java.exe",
+      "jtt",
+      "-jar \"$dir\\jTT_v6.21.jar\""
+    ]
+  ],
+  "description": "Java TopTask",
+  "hash": "be664ca7c4b489f3ffe894d7208c6d74bc06c126c744b6812d2ad998f2d4c648",
+  "homepage": "https://xctherm.com/de/toptask",
+  "license": "Proprietary",
+  "suggest": {
+    "Java17": "java/temurin17-jre"
+  },
+  "url": "https://xctherm.com/data/jtt/jTT_v6.21.jar",
+  "version": "6.21"
 }
