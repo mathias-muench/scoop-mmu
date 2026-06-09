@@ -3,16 +3,16 @@
     [
       "java.exe",
       "jtt",
-      "-jar \"$dir\\jTT_v6.21.jar\""
+      "-jar \"$dir\\jTT_v6.22.jar\""
     ]
   ],
   "description": "Java TopTask",
-  "hash": "be664ca7c4b489f3ffe894d7208c6d74bc06c126c744b6812d2ad998f2d4c648",
+  "hash": "",
   "homepage": "https://xctherm.com/de/toptask",
   "license": "Proprietary",
   "suggest": {
     "Java17": "java/temurin17-jre"
   },
-  "url": "https://xctherm.com/data/jtt/jTT_v6.21.jar",
-  "version": "6.21"
+  "url": "https://xctherm.com/data/jtt/jTT_v6.22.jar",
+  "version": "6.22"
 }
