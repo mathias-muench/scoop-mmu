@@ -3,7 +3,7 @@
     [
       "java.exe",
       "jtt",
-      "-jar \"$dir\\jTT_v6.22.jar\""
+      "-jar \"$dir\\jTT_v6.23.jar\""
     ]
   ],
   "description": "Java TopTask",
@@ -13,6 +13,6 @@
   "suggest": {
     "Java17": "java/temurin17-jre"
   },
-  "url": "https://xctherm.com/data/jtt/jTT_v6.22.jar",
-  "version": "6.22"
+  "url": "https://xctherm.com/data/jtt/jTT_v6.23.jar",
+  "version": "6.23"
 }
