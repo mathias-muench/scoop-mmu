@@ -1,7 +1,7 @@
 {
     "checkver": "version ([-\\d\\.bB]+)",
     "autoupdate": {
-        "url": "https://mpmediasoft.de/products/AIPBrowserDE/AIP%20Browser%20DE-$version-windows-x86_64.msi#/setup.msi_"
+        "url": "https://mpmediasoft.de/products/AIPBrowserDE/releases/aip-browser-de-$version-windows-x86_64.msi#/setup.msi_"
     },
     "installer": {
         "script": "Start-Process msiexec -ArgumentList @('/i', \"`\"$dir\\setup.msi_`\"\", '/qn', '/norestart') -Wait -Verb RunAs"
@@ -9,10 +9,10 @@
     "uninstaller": {
         "script": "Start-Process msiexec -ArgumentList @('/x', \"`\"$dir\\setup.msi_`\"\", '/qn', '/norestart') -Wait -Verb RunAs"
     },
-    "version": "1.2.2-b11",
+    "version": "1.3.14-b07",
     "description": "Der AIP Browser DE ist ein spezieller Browser für die frei verfügbare Online-Version der AIP VFR von Deutschland",
     "homepage": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html",
     "license": "https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html#_lizenz",
-    "hash": "27e30c7fd668ae83e6ba0d7869d84a3546561375c62a71fdb7f52c98718d6d63",
-    "url": "https://mpmediasoft.de/products/AIPBrowserDE/AIP%20Browser%20DE-1.2.2-b11-windows-x86_64.msi#/setup.msi_"
+    "hash": "b228d7b981d31a884e6801809c3516eba0d5c7b039edf61d17bbb9836ed687a4",
+    "url": "https://mpmediasoft.de/products/AIPBrowserDE/releases/aip-browser-de-1.3.14-b07-windows-x86_64.msi#/setup.msi_"
 }
