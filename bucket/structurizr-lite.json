@@ -9,10 +9,7 @@
     },
     "url": "https://github.com/structurizr/lite/releases/download/v2025.05.28/structurizr-lite.war",
     "hash": "a3819967693cf8f48bd21ca668547e05ae48fa0b65f1631845a101e3ed3778b9",
+    "##": "pinned: structurizr left open source after 2025.05.28; later releases are empty hulls only",
     "pre_install": "Set-Content -Value \"@java.exe -Djdk.util.jar.enableMultiRelease=false -jar $dir\\structurizr-lite.war %* && exit 0 || exit 1\" -Path \"$dir\\structurizr-lite.bat\"",
-    "bin": "structurizr-lite.bat",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/structurizr/lite/releases/download/v$version/structurizr-lite.war"
-    }
+    "bin": "structurizr-lite.bat"
 }

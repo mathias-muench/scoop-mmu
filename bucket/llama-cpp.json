@@ -1,5 +1,5 @@
 {
-    "version": "b10441",
+    "version": "b11669",
     "description": "LLM inference in C/C++ (CUDA 12.4 build)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
@@ -9,17 +9,17 @@
         "Requires an NVIDIA driver supporting CUDA 12.4"
     ],
     "url": [
-        "https://github.com/ggml-org/llama.cpp/releases/download/b10441/llama-b10441-bin-win-cuda-12.4-x64.zip",
-        "https://github.com/ggml-org/llama.cpp/releases/download/b10441/cudart-llama-bin-win-cuda-12.4-x64.zip"
+        "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cuda-12.4-x64.zip",
+        "https://github.com/ggml-org/llama.cpp/releases/download/b11669/cudart-llama-bin-win-cuda-12.4-x64.zip"
     ],
     "hash": [
-        "0de3ea2c22b6de3eb0831300bf142a49b1c38f135f73a80648865e2f8d890287",
+        "c2da1f73ed176ae093ac5aceb978a7b167a16113f6d74c6789eeaee2135cb8dc",
         "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6"
     ],
     "bin": "llama.exe",
     "checkver": {
-        "url": "https://api.github.com/repos/ggml-org/llama.cpp/releases/latest",
-        "jsonpath": "$.tag_name"
+        "url": "https://github.com/ggml-org/llama.cpp/releases/latest/download/nightly-tag.txt",
+        "regex": "(b\\d+)"
     },
     "autoupdate": {
         "url": [
